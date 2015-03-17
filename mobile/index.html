@@ -1,0 +1,30 @@
+<html>
+<head>
+        <title>Mobile Device Configuration Builder</title>
+        <style>
+                body { margin: 0; padding: 0; background: #fff; font-family: Arial,sans-serif; }
+                #theform { margin: 20px; }
+        </style>
+</head>
+<body>
+        <h2>Mobile device configuration builder</h2>
+
+<form action="gen.php" method="post">
+<div id="theform">
+Full Name:<br />
+<input type="text" name="FullName">
+<br />
+Company Name:<br />
+<input type="text" name="CompanyName">
+<br />
+E-mail Address:<br />
+<input type="text" name="EmailAddress">
+<br />
+Setup Type:<br />
+<input type="radio" name="incoming" value="pop" checked>POP3<br />
+<input type="radio" name="incoming" value="imap">IMAP<br />
+<input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>
